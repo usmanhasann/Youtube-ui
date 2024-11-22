@@ -1,3 +1,8 @@
-header{
-    background-color: red;
+.hello {
+  margin-right: 12rem;
+}
+.icons-YT {
+  width: 55%;
+  height: 55%;
+  cursor: pointer;
 }

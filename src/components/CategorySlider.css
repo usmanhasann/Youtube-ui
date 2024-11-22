@@ -1,0 +1,33 @@
+/* Container for the slider */
+.category-slider {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+.category-slider::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome/Safari */
+}
+
+/* Category item styles */
+.category-item {
+  padding: 8px 16px;
+  margin: 0 8px;
+  font-size: 14px;
+  color: #606060;
+  cursor: pointer;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+/* Active category styles */
+.category-item.active {
+  color: #000;
+  border-bottom: 2px solid red;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.category-item:hover {
+  color: #000;
+}
